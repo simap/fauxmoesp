@@ -1,6 +1,6 @@
 /*
 
-FAUXMO ESP 2.4.4
+FAUXMO ESP 2.4.5
 
 Copyright (C) 2016 by Xose Pérez <xose dot perez at gmail dot com>
 

@@ -1,6 +1,6 @@
 /*
 
-FAUXMO ESP 2.4.4
+FAUXMO ESP 2.4.5
 
 Copyright (C) 2016 by Xose Pérez <xose dot perez at gmail dot com>
 
@@ -377,7 +377,7 @@ bool fauxmoESP::renameDevice(unsigned char id, const char * device_name) {
 }
 
 char * fauxmoESP::getDeviceName(unsigned char id, char * device_name, size_t len) {
-    if (0 <= id && id <= _devices.size()) {
+    if ((0 <= id) && (id <= _devices.size()) && (device_name != NULL)) {
         strncpy(device_name, _devices[id].name, len);
     }
     return device_name;

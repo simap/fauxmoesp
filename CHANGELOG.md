@@ -3,6 +3,10 @@
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.4.5] Unreleased
+### Fixed
+- Possible segmentation fault in getDeviceName
+
 ## [2.4.4] 2018-08-27
 ### Fixed
 - Properly handle UDP messages when no devices defined
